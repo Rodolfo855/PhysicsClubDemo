@@ -5,10 +5,10 @@
 	(uuid "4deaa014-311e-404e-963e-ca894f6a7656")
 	(paper "A4")
 	(title_block
-		(title "Arduino UNO R4 Shield Template SCH")
-		(date "2023-07-13")
+		(title "Electric Components Demo")
+		(date "02/26/206")
 		(rev "1.0")
-		(company "MStackoverflow")
+		(company "Victor Rosales")
 	)
 	(lib_symbols
 		(symbol "Connector_Arduino:Arduino_Header_Analog_1"
@@ -1389,7 +1389,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Arduino UNO R4 Shield"
+	(text "Schematic - Component Placement"
 		(exclude_from_sim no)
 		(at 15.875 19.685 0)
 		(effects
@@ -1402,49 +1402,9 @@
 		)
 		(uuid "3b5db185-c018-43c9-838f-ceed7c0ef52e")
 	)
-	(polyline
-		(pts
-			(xy 15.24 21.59) (xy 124.46 21.59)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "05115157-dac4-4b13-8923-55ead3dc0aa9")
-	)
-	(polyline
-		(pts
-			(xy 124.46 21.59) (xy 124.46 130.175)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "54768c4d-6915-478e-920b-49b33654d9b6")
-	)
-	(polyline
-		(pts
-			(xy 15.24 130.175) (xy 15.24 21.59)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "5d4df724-8af5-45a1-956c-9bd048653686")
-	)
-	(polyline
-		(pts
-			(xy 124.46 130.175) (xy 15.24 130.175)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9b4ac34c-14b8-414e-8221-b8c369bae86d")
-	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_Digital_2")
-		(at 102.87 86.36 0)
+		(at 65.405 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1452,7 +1412,7 @@
 		(dnp no)
 		(uuid "431338ac-a7de-4b62-bdf2-eba514c80197")
 		(property "Reference" "U7"
-			(at 97.79 80.01 0)
+			(at 61.595 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1420,7 @@
 			)
 		)
 		(property "Value" "Digital_2"
-			(at 87.63 83.185 0)
+			(at 51.435 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1428,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_1x08_P2.54mm_Vertical"
-			(at 101.6 73.66 0)
+			(at 64.135 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 86.36 0)
+			(at 65.405 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 86.36 0)
+			(at 65.405 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1488,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical_Arduino:MountingHole_Arduino")
-		(at 39.37 124.46 0)
+		(at 31.75 109.855 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1536,7 +1496,7 @@
 		(dnp no)
 		(uuid "484f0239-84f5-49d9-b84d-554adc0db3d6")
 		(property "Reference" "H4"
-			(at 41.91 124.46 0)
+			(at 34.29 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1505,7 @@
 			)
 		)
 		(property "Value" "MountingHole4"
-			(at 22.86 124.46 0)
+			(at 15.24 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1514,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoMountingHoles:Arduino_MountingHole"
-			(at 39.37 124.46 0)
+			(at 31.75 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 124.46 0)
+			(at 31.75 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 124.46 0)
+			(at 31.75 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1550,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_ICSP")
-		(at 73.025 113.03 0)
+		(at 27.94 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1598,7 +1558,7 @@
 		(dnp no)
 		(uuid "55cbeeb8-edbb-43d9-9bd4-158a7d52440b")
 		(property "Reference" "U5"
-			(at 69.215 106.68 0)
+			(at 24.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1566,7 @@
 			)
 		)
 		(property "Value" "ICSP"
-			(at 62.23 109.855 0)
+			(at 17.145 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1574,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_2x03_P2.54mm_Vertical"
-			(at 73.025 101.6 0)
+			(at 27.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.025 113.03 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.025 113.03 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1628,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_Analog_2")
-		(at 45.72 91.44 0)
+		(at 29.21 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1676,7 +1636,7 @@
 		(dnp no)
 		(uuid "63007821-d794-4b28-94a8-9262a646d27d")
 		(property "Reference" "U3"
-			(at 42.545 85.09 0)
+			(at 26.035 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1644,7 @@
 			)
 		)
 		(property "Value" "Analog_2"
-			(at 34.29 87.63 0)
+			(at 17.78 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1652,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_1x06_P2.54mm_Vertical"
-			(at 45.72 78.74 0)
+			(at 29.21 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 91.44 0)
+			(at 29.21 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 91.44 0)
+			(at 29.21 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1706,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_Digital_1")
-		(at 102.87 53.34 0)
+		(at 66.675 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1754,7 +1714,7 @@
 		(dnp no)
 		(uuid "63f3422e-78b6-4e3c-b051-22b2d7c39605")
 		(property "Reference" "U6"
-			(at 93.345 46.99 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1722,7 @@
 			)
 		)
 		(property "Value" "Digital_1"
-			(at 78.74 50.165 0)
+			(at 42.545 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1730,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_1x10_P2.54mm_Vertical"
-			(at 102.87 40.64 0)
+			(at 66.675 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 53.34 0)
+			(at 66.675 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 53.34 0)
+			(at 66.675 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1796,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_ESP32-S3")
-		(at 102.235 30.48 0)
+		(at 66.04 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1844,7 +1804,7 @@
 		(dnp no)
 		(uuid "6ca0b600-55b8-480e-86ab-70d33f64e0f6")
 		(property "Reference" "U4"
-			(at 93.2121 23.7327 0)
+			(at 57.0171 25.0027 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1812,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3"
-			(at 77.9721 27.5427 0)
+			(at 41.7771 28.8127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1820,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_2x03_P2.54mm_Vertical"
-			(at 102.235 19.05 0)
+			(at 66.04 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.235 30.48 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.235 30.48 0)
+			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1874,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_OFF")
-		(at 45.72 46.99 0)
+		(at 29.21 33.655 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1922,7 +1882,7 @@
 		(dnp no)
 		(uuid "728b8f65-9cc8-4172-9b61-68e59ce10e89")
 		(property "Reference" "U1"
-			(at 42.545 40.64 0)
+			(at 26.035 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1890,7 @@
 			)
 		)
 		(property "Value" "OFF"
-			(at 36.195 44.45 0)
+			(at 19.685 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1898,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_1x03_P2.54mm_Vertical"
-			(at 45.72 34.29 0)
+			(at 29.21 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 46.99 0)
+			(at 29.21 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1916,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 46.99 0)
+			(at 29.21 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1943,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Arduino:Arduino_Header_Analog_1")
-		(at 45.72 62.865 0)
+		(at 29.21 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1991,7 +1951,7 @@
 		(dnp no)
 		(uuid "b239170f-efa2-4070-8687-fa7a47427091")
 		(property "Reference" "U2"
-			(at 42.545 56.515 0)
+			(at 26.035 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1959,7 @@
 			)
 		)
 		(property "Value" "Analog_1"
-			(at 33.655 59.055 0)
+			(at 17.145 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +1967,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoPinSockets:Arduino_PinSocket_1x08_P2.54mm_Vertical"
-			(at 45.72 50.165 0)
+			(at 29.21 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +1976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 62.865 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +1985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 62.865 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2027,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical_Arduino:MountingHole_Arduino")
-		(at 39.37 115.57 0)
+		(at 31.75 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2075,7 +2035,7 @@
 		(dnp no)
 		(uuid "cae81823-456a-4007-89b0-a70abec1758b")
 		(property "Reference" "H2"
-			(at 41.91 115.57 0)
+			(at 34.29 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2044,7 @@
 			)
 		)
 		(property "Value" "MountingHole2"
-			(at 22.86 115.57 0)
+			(at 15.24 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2053,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoMountingHoles:Arduino_MountingHole"
-			(at 39.37 115.57 0)
+			(at 31.75 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 115.57 0)
+			(at 31.75 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 115.57 0)
+			(at 31.75 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2089,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical_Arduino:MountingHole_Arduino")
-		(at 39.37 111.125 0)
+		(at 31.75 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2137,7 +2097,7 @@
 		(dnp no)
 		(uuid "cc690ef5-5ef2-4aa9-a8a8-2029c773ee17")
 		(property "Reference" "H1"
-			(at 41.91 111.125 0)
+			(at 34.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2106,7 @@
 			)
 		)
 		(property "Value" "MountingHole1"
-			(at 22.86 111.125 0)
+			(at 15.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2115,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoMountingHoles:Arduino_MountingHole"
-			(at 39.37 111.125 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 111.125 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 111.125 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2151,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical_Arduino:MountingHole_Arduino")
-		(at 39.37 120.015 0)
+		(at 31.75 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2199,7 +2159,7 @@
 		(dnp no)
 		(uuid "e0808123-e8b3-42ae-ba8a-c117a3e25098")
 		(property "Reference" "H3"
-			(at 41.91 120.015 0)
+			(at 34.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2168,7 @@
 			)
 		)
 		(property "Value" "MountingHole3"
-			(at 22.86 120.015 0)
+			(at 15.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2177,7 @@
 			)
 		)
 		(property "Footprint" "ArduinoMountingHoles:Arduino_MountingHole"
-			(at 39.37 120.015 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 120.015 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 120.015 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
